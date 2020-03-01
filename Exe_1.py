@@ -1,10 +1,5 @@
 
 def start():
-    print(33)
-    print(33)
-    print(33)
-    print(33)
-    print(33)
 
 
 
