@@ -1,5 +1,4 @@
 import math
-from subprocess import Popen, PIPE
 from multiprocessing import Process, Queue
 
 allProcesses = list()
