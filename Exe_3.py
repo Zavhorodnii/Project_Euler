@@ -41,6 +41,7 @@ def start():
                 break
         except Exception:
             pass
+    #long_var/2
     var_1 = math.ceil(long_var / thread_var)
     var_2 = 1
     while True:
