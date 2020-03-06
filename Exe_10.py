@@ -10,6 +10,7 @@ def start():
     while True:
         if go(j, my_list):
             result += j
+            #print(j)
             my_list.append(j)
         if j == var:
             print("{}".format(result))
@@ -19,13 +20,10 @@ def start():
 
 
 def go(j, my_list):
-    #print(my_list)
     for i in my_list:
         if j % i == 0:
-            #print(j)
             return False
     return True
-
 
 
 if __name__ == '__main__':
