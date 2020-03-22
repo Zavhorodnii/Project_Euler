@@ -10,7 +10,6 @@ def start():
     while True:
         if go(j, my_list):
             result += j
-            #print(j)
             my_list.append(j)
         if j == var:
             print("{}".format(result))
